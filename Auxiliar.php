@@ -1,0 +1,3 @@
+<?php
+    Echo 'Arquivo Auxiliar!'
+?>
