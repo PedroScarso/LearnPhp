@@ -54,4 +54,5 @@
         - Prática: Use require_once para arquivos fundamentais que também podem ser usados em múltiplos lugares, como definições de classes ou funções. Isso previne problemas de redefinição.
 
         require_once 'init.php';
+        */
 ?>
