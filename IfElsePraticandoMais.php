@@ -41,7 +41,7 @@
         } elseif($valorCompra >= 500.00 || $clienteCadastrado == true) {
             echo  "Parabéns seu desconto é de 5%!<br>" . "Valor: " . $valorTotal * 0.95;
         } else {
-            echo "Desculpa, você não possui desconto, faça o cartão da loja para ganhar 5% de desconto em qualquer compra!";
+            echo "Desculpa, você não possui desconto, faça o cartão da loja para ganhar 15% de desconto em qualquer compra!";
         }
     ?>
 </body>
