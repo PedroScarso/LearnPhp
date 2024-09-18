@@ -25,7 +25,7 @@
         #       Calcular desconto
 
         // valor total da compra
-        $valorCompra = 400.00;
+        $valorCompra = 2200.00;
         $fretePadrao = 2.00;
         $kmDistancia = 50;
         $freteCalculado = $fretePadrao * $kmDistancia;
@@ -34,9 +34,9 @@
         $clienteCadastrado = false;
       
          
-        if ($valorCompra >= 1000.00 && $clienteCadastrado == true) {
+        if ($valorCompra >= 1000.00 || $clienteCadastrado == true) {
             echo  "Parabéns seu desconto é de 15%!<br>" . "Valor: " . $valorTotal * 0.85;
-        } elseif($valorCompra >= 750.00 && $clienteCadastrado == true) {
+        } elseif($valorCompra >= 750.00 || $clienteCadastrado == true) {
             echo  "Parabéns seu desconto é de 10%!<br>" . "Valor: " . $valorTotal * 0.90;
         } elseif($valorCompra >= 500.00 || $clienteCadastrado == true) {
             echo  "Parabéns seu desconto é de 5%!<br>" . "Valor: " . $valorTotal * 0.95;
