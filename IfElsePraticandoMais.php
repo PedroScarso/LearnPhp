@@ -32,6 +32,11 @@
         $valorTotal = ($valorCompra + $freteCalculado);
 
         $clienteCadastrado = false;
+
+        // Operador ternário, teste se o cliente é cadastrado
+        $teste = $clienteCadastrado ? 'Sim<br>' : 'Não<br>';
+
+        echo $teste;
       
          
         if ($valorCompra >= 1000.00 || $clienteCadastrado == true) {
