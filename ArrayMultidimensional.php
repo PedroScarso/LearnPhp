@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    // Array multidimensional
+    // Array multidimensional Simples, cada chave é associada a um array de valores. Não há mais níveis de subarrays além disso.
 
     $listaCoisas = ['frutas', 'cores'];
 
