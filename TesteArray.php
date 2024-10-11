@@ -7,9 +7,10 @@
 </head>
 <body>
     <?php
-    //Teste de array, vou criar uma array multidimensional, cuja o primeiro array vai ser chamar lista de times brasileiros, nela vai incluir 3 Arrays, sendo eles Paulistas, Cariocas e Mineiros, associar um índice a cada item e fazer uma pesquisa...
+    //Teste de array, vou criar uma array multidimensional de estrutura complexa, cuja o primeiro array vai ser chamar lista de times brasileiros, nela vai incluir 3 Arrays, sendo eles Paulistas, Cariocas e Mineiros, associar um índice a cada item e fazer uma pesquisa...
 
-    
+    // Neste array temos níveis de subarrays, índices e valores.
+
     //Lista de times com var_dump
     echo '<h4>Debug e Pesquisa em Arrays Muldimensionais</h4>';
     echo '<b>$listaTimes com var_dump</b>';
