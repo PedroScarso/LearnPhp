@@ -29,8 +29,24 @@
         echo 'Não, não é um array<hr>';
     }
     
-    
+    //Criar um novo array, cuja os valores são as chaves do array que foi usado na função
+    echo '<b>Função array_keys</b><br>';
+    $array = [10 => 'a',
+              20 => 'b',
+              30 => 'c',
+              40 => 'd'
+];
+    echo '<pre>';
+        print_r($array);
+    echo '</pre>';
 
+    $arrayKeys = array_keys($array);
+    echo '<pre>';
+        print_r($arrayKeys);
+    echo '</pre>';
+    echo '<hr>';
+
+    
 
     ?>
 </body>
