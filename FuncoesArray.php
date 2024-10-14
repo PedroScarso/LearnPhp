@@ -108,6 +108,8 @@
 
     //Função explode dividi a string baseado no delimitador e o retorno
 
+    echo '<b>Função explode</b><br>';
+
     $data = '06/11/1997';
 
     echo '<pre>';
