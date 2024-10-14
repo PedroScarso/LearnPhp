@@ -124,6 +124,23 @@
 
     echo '<b>Concatenando/formatando data em novo padrão</b><br>';
     echo $dataExplode[2].'-'.$dataExplode[1].'-'.$dataExplode[0];
+    echo '<hr>';
+
+    //Função implode junta os elementos de um array em uma string com um delimitador previamente passado
+
+    echo '<b>Função implode</b><br>';
+    $listaObjetos = ['Caneta','Lápis','Tesoura','Papel Sulfite','Régua'];
+
+    echo '<pre>';
+    print_r($listaObjetos);
+    echo '</pre>';
+
+    $listaObjetosImplode = implode ('-', $listaObjetos);
+
+    echo '<pre>';
+    print_r($listaObjetosImplode);
+    echo '</pre>';
+
     ?>
 </body>
 </html>
