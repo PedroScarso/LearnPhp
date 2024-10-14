@@ -61,7 +61,7 @@
     print_r($pcGamer);
     echo '</pre><hr>';
 
-    //Função asorte ordena um array colocando os valores em ordem alfabética porém preservando seus índices
+    //Função asort ordena um array colocando os valores em ordem alfabética porém preservando seus índices
     echo '<b>Função asort</b><br>';
 
     $geladeira = ['Agua','Carne','Refrigerante','Suco','Manteiga','Requeijão','Queijo','Sobremesa','Leite','Ovos'];
@@ -75,6 +75,16 @@
     print_r($geladeira);
     echo '</pre><hr>';
 
+    //Função count, conta quantos itens tem dentro do array
+
+    echo '<b>Função count</b><br>';
+
+    $listaCores = ['Branco','Azul','Preto','Vermelho','Amarelo','Roxo','Verde','Marrom'];
+
+    echo '<pre>';
+    echo count($listaCores).'<br>';
+    print_r($listaCores);
+    echo '</pre>';
 
     ?>
 </body>
