@@ -46,7 +46,20 @@
     echo '</pre>';
     echo '<hr>';
 
-    
+    //Função sort ordena em ordem alfabética rearranjando os índices de cada item
+    echo '<b>Função sort</b><br>';
+
+    $pcGamer = ['Gabinete', 'SSD', 'Fonte','Placa mãe','GPU','CPU','Monitor','Ram','CPU Fan','Teclado','Mouse','Headset','Microfone','Cabo HDMI'];
+
+    echo '<pre>';
+    print_r($pcGamer);
+    echo '</pre>';
+
+    sort($pcGamer);
+    echo '<pre>';
+    print_r($pcGamer);
+    echo '</pre><hr>';
+
 
     ?>
 </body>
