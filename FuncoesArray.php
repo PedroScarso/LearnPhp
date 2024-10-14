@@ -104,10 +104,21 @@
 
     echo '<pre>';
     print_r($arrayOperacionaisMerge);
+    echo '</pre><hr>';
+
+    //Função explode dividi a string baseado no delimitador e o retorno
+
+    $data = '06/11/1997';
+
+    echo '<pre>';
+    print_r($data);
     echo '</pre>';
 
+    $dataExplode = explode ('/', $data);
 
-
+    echo '<pre>';
+    print_r($dataExplode);
+    echo '</pre>';
     ?>
 </body>
 </html>
