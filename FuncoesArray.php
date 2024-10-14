@@ -84,7 +84,29 @@
     echo '<pre>';
     echo count($listaCores).'<br>';
     print_r($listaCores);
+    echo '</pre><hr>';
+
+    //Função merge, faz a união de itens de 2 arrays
+    echo '<b>Função array_merge</b><br>';
+
+    $sistemaOperacional = ['Ubuntu','W10','WS12','WS19','Mac'];
+    $sistemaOperacionalMobile = ['Android','Windows phone','IOS'];
+
+    echo '<pre>';
+    print_r($sistemaOperacional);
     echo '</pre>';
+
+    echo '<pre>';
+    print_r($sistemaOperacionalMobile);
+    echo '</pre>';
+
+    $arrayOperacionaisMerge = array_merge($sistemaOperacional, $sistemaOperacionalMobile);
+
+    echo '<pre>';
+    print_r($arrayOperacionaisMerge);
+    echo '</pre>';
+
+
 
     ?>
 </body>
