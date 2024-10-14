@@ -8,6 +8,7 @@
 <body>
     <?php
     /*  Funções nativas para manipular Arrays
+
         is_array(array) --> Verifica se o parâmetro é um array
         array_keys(array) --> Retorna todas as chaves de um array
         sort(array) --> Ordena um array e reajusta seus índices
@@ -58,6 +59,20 @@
     sort($pcGamer);
     echo '<pre>';
     print_r($pcGamer);
+    echo '</pre><hr>';
+
+    //Função asorte ordena um array colocando os valores em ordem alfabética porém preservando seus índices
+    echo '<b>Função asort</b><br>';
+
+    $geladeira = ['Agua','Carne','Refrigerante','Suco','Manteiga','Requeijão','Queijo','Sobremesa','Leite','Ovos'];
+
+    echo '<pre>';
+    print_r($geladeira);
+    echo '</pre>';
+
+    asort($geladeira);
+    echo '<pre>';
+    print_r($geladeira);
     echo '</pre><hr>';
 
 
