@@ -121,6 +121,9 @@
     echo '<pre>';
     print_r($dataExplode);
     echo '</pre>';
+
+    echo '<b>Concatenando/formatando data em novo padrão</b><br>';
+    echo $dataExplode[2].'-'.$dataExplode[1].'-'.$dataExplode[0];
     ?>
 </body>
 </html>
