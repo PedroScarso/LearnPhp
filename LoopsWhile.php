@@ -34,6 +34,21 @@
 
             echo '<hr>';
 
+        // Com break, ele faz a execução uma única vez, logo após ele para a instrução e parte para próxima.
+        $num2 = 1;
+        echo '<b>Loop com while e break</b><br>';
+        echo '-- Início do loop --<br>';
+        while($num2 <= 20) {
+            echo "$num2 . <br>";
+            $num2++;
+
+            break;
+        }   
+            echo '-- Fim do loop --';
+
+            echo '<hr>';
+       
+
         
          
     ?>
