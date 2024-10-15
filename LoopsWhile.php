@@ -22,6 +22,18 @@
 
             echo '<hr>';
         
+        // Acréscimo de 3 em 3 até 21
+        $num1 = 1;
+        echo '<b>Loop com while</b><br>';
+        echo '-- Início do loop --<br>';
+        while($num1 <= 21) {
+            echo "$num1 . <br>";
+            $num1 += 3;
+        }   
+            echo '-- Fim do loop --';
+
+            echo '<hr>';
+
         
          
     ?>
