@@ -1,7 +1,9 @@
 <?php
  $usuarios_app = [
-    'email' => 'adm@alcon.com.br',
-    'senha' => '1234'
+    "ID" => 1,
+    "email" => "adm@alcon.com.br",
+    "senha" => "1234",
+    "Nome" => "Usuário Administrador"
 ];
 
 echo '<pre>';
@@ -25,7 +27,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
 if ($usuario_autenticado) {
     header('Location: home.php');
 } else {
-    header('Location: index.php');
+    header('Location: index.php?login=erro');
 }
 
 ?>
