@@ -1,0 +1,6 @@
+1#Notebook não liga#Suporte técnico (Problemas de Hardware e/ou Software)#Sem sinal de vida.
+1#Adm #Suporte técnico (Problemas de Hardware e/ou Software)#teste
+2#User normal#Suporte técnico (Problemas de Hardware e/ou Software)#teste 1
+3#User comum#Suporte técnico (Problemas de Hardware e/ou Software)#teste 2
+2#Fone não funciona#Suporte técnico (Problemas de Hardware e/ou Software)#Fone parou de funcionar no notebook.
+3#Internet não funciona#Suporte técnico (Problemas de Hardware e/ou Software)#Não consigo navegar na internet
