@@ -4,3 +4,4 @@
 3#User comum#Suporte técnico (Problemas de Hardware e/ou Software)#teste 2
 2#Fone não funciona#Suporte técnico (Problemas de Hardware e/ou Software)#Fone parou de funcionar no notebook.
 3#Internet não funciona#Suporte técnico (Problemas de Hardware e/ou Software)#Não consigo navegar na internet
+2#Smartphone#Solicitação de linha e/ou smartphone#Substituição

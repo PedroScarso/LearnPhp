@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help Desk</title>
+    <title>HelpDesk</title>
     <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
@@ -18,9 +18,9 @@
   <body>
 
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.php">
         <img src="Alcon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        Help Desk
+        HelpDesk
       </a>
     </nav>
 
@@ -33,21 +33,21 @@
               Login
             </div>
             <div class="card-body">
-              <form action="valida_login.php" method="post">
+              <form action="validaLogin.php" method="post">
                 <div class="form-group">
-                  <input name="email" type="email" class="form-control" placeholder="E-mail">
+                  <input name="email" type="email" class="form-control" placeholder="E-mail" required>
                 </div>
                 <div class="form-group">
-                  <input name="senha" type="password" class="form-control" placeholder="Senha">
+                  <input name="password" type="password" class="form-control" placeholder="Senha" required>
                 </div>
 
-                <? if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+                <?php if(isset($_GET['login']) && $_GET['login'] === 'erro'){                  
+                echo '<div class="text-danger">Usuário ou senha inválido(s)</div>';
+                }?>
 
-                  <div class="text-danger">
-                    Usuário ou senha inválido(s)
-                  </div>
-
-                <? } ?>
+                <?php if(isset($_GET['login']) && $_GET['login'] === 'erro2'){                  
+                echo '<div class="text-danger">Faça o login para acessar as páginas protegidas!</div>';
+                }?>
 
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
